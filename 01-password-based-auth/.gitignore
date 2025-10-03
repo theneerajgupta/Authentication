@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+jspm_packages/ # If using JSPM
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+dist/
+build/
+coverage/ # If using a test coverage tool
+
+# Editor/IDE specific files
+.vscode/ # VS Code specific files
+.idea/ # IntelliJ IDEA specific files
+.DS_Store # macOS specific files
+Thumbs.db # Windows specific files
+
+# Other temporary files
+*.tmp
+*.bak
+*.swp
